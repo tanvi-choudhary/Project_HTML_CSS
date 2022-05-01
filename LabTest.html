@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+    <title>Mentor Session</title>
+    <link rel="stylesheet" href="LabTest.css">
+</head>
+<body>
+    <header>Lab Test</header>
+    <div class = "container">
+    <section id="Lab">
+        <nav>
+            <div class="rightHalf">
+                <img id="clip" src="/Users/tanvichoudhary/Desktop/HTML_CSS/Assignment/Images/Lab-Test/lab-test.jpg" height="700" width="600"/>
+            </div>
+             <!-- <div class = "leftHalf"> -->
+                <form action="Submitted.html">
+            <ol class="contact">
+                <li>Your Contact Details</li> <br>
+                <div class ="styling">
+                        <input type="text" id= "Full Name" placeholder = "Full Name" required>
+                        <input type="text" id= "PatientID" placeholder = "Patient Id if exists" required>
+                        <br><br>
+                        <input type="number" id= "Contact Number" placeholder = "Contact Number" required>
+                        <input type="email" id= "Email Id" placeholder = "Email Id" required>
+                </div>
+                <br>
+
+                <li>Address</li>
+                <br>
+                <div class ="styling">
+                        <input type="text" id= "HouseNumber" placeholder = "H-No">
+                        <input type="text" id= "Street" placeholder = "Street">
+                        <br><br>
+                        <input type="text" id= "Area" placeholder = "Area"><br>
+                </div>
+                <br>
+                
+                <label for="district">District</label> <br>
+                <select name="district" id="choose">
+                    <option value="Choose">Choose</option>
+                    <option value="Dist1">Dist1</option>
+                    <option value="Dist2">Dist2</option>
+                    <option value="Dist3">Dist3</option>
+                    <option value="Dist4">Dist4</option>
+                  </select>
+                  <br><br>
+
+                <li>Test Type</li><br>
+                <div class = "TestType">
+                    <input type="checkbox" id="CBC" name="CBC" value="CBC">
+                    <label for="CBC"> CBC</label><br>
+
+                    <input type="checkbox" id="Complete Urine" name="Complete Urine" value="Complete Urine" required>
+                    <label for="Complete Urine"> Complete Urine</label><br>
+
+                    <input type="checkbox" id="Lipid Profile" name="Lipid Profile" value="Lipid Profile" required>
+                    <label for="Lipid Profile"> Lipid Profile</label><br>
+
+                    <input type="checkbox" id="TSH" name="TSH" value="TSH" required>
+                    <label for="TSH"> Thyroid Stimulating Hormone(TSH)</label><br>
+
+                    <input type="checkbox" id="Glucose Test" name="Glucose Test" value="Glucose Test" required>
+                    <label for="Glucose Test"> Glucose Test</label><br>
+
+                </div><br>
+
+                <li>Do you want a hard copy of the report</li><br>
+                <div class = "TestType">
+                    <input type="radio" id="Yes" name="Yes" value="Yes">
+                    <label for="Yes">Yes</label><br>
+
+                    <input type="radio" id="No" name="No" value="No">
+                    <label for="No">No</label><br>
+                </div><br>
+
+                <li>Select Your Comfortable Date and Time</li><br>
+                <div class = "TestType">
+                    <label for="Date">Date:</label>
+                    <input type="date" id="Date" name="Date">
+
+                    <label for="Time">Time:</label>
+                    <input type="time" id="Time" name="Time">
+                
+                </div><br>
+            </ol>
+        </nav>
+    </section>
+
+</div><br>
+    <button class ="buttons"><a href="LabTest.html">Reset</a></button> 
+    <button class ="buttons">Submit</button> 
+</form>
+</body>
+</html>

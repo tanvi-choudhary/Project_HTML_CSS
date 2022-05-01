@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>
+    <title>Graded Project</title>
+    <link rel="stylesheet" href="Pharmacy.css">
+    <style>
+        /* #mydiv{ animation: changeBg 15s infinite; width:100%; height:200px;background-repeat: no-repeat; } */
+        #mydiv 
+        {
+            width:100%;
+            height:50%;
+            border: 2px solid steelblue;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position:absolute;
+            animation-name: changeBg;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+@keyframes changeBg{
+     0%,19%  {background-image: url("/Users/tanvichoudhary/Desktop/HTML_CSS/Assignment/Images/Animation/ani1.jpg");}
+     20%,39% {background-image: url("/Users/tanvichoudhary/Desktop/HTML_CSS/Assignment/Images/Animation/ani2.png");}
+     40%,59% {background-image: url("/Users/tanvichoudhary/Desktop/HTML_CSS/Assignment/Images/Animation/ani3.jpg");}
+     60%,79% {background-image: url("/Users/tanvichoudhary/Desktop/HTML_CSS/Assignment/Images/Animation/ani4.jpg");}
+     80%,100% {background-image: url("/Users/tanvichoudhary/Desktop/HTML_CSS/Assignment/Images/Animation/ani5.jpg");}
+}
+    </style>
+</head>
+<body>
+    <header>Pharmacy</header>
+    <section id="navigate">
+        <div class="navbar">
+            <a href="#home">Home</a>
+
+            <div class="dropdown">
+              <button class="dropbtn">Our Medicines
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Fever</a>
+                <a href="#">Muscle Pains</a>
+                <a href="#">Cold & Cough</a>
+              </div>
+            </div>
+
+              <div class="dropdown">
+                <button class="dropbtn">Health Care
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Baby Care</a>
+                  <a href="#">Skin Care</a>
+                  <a href="#">Home Care</a>
+                  <a href="#">Personal Care</a>
+                  <a href="#">Pet Care</a>
+                </div>
+            </div>
+                <a href="LabTest.html">Lab Test</a>
+          </div>
+    </section>
+
+    <section>
+        <div id='mydiv'></div>
+    </section>
+
+    <section>
+        <article id ="Covid">
+            <div> <b>Covid Care</b></div>
+            <br>
+
+             <div class="Section">
+                 <div class="overlay"><b>Covid Test Kit</b>
+                    <img src="/Users/tanvichoudhary/Desktop/HTML_CSS/Assignment//Images/Products/c1.jpg" >
+                    <div class = "type">Rs 40 <br> Offer Rs 30/-</div>
+                     <button class ="cart"><b>Add to cart</b></button> 
+                </div>
+ 
+                 <div class="overlay"><b>Covid Essentials</b>
+                     <img src="/Users/tanvichoudhary/Desktop/HTML_CSS/Assignment//Images/Products/c2.jpg" >
+                     <div class = "type">Rs 240 <br> Offer Rs 170/-</div>
+                    <button class ="cart"><b>Add to cart</b></button> 
+                </div>
+
+                 <div class="overlay"><b>Sanitiser Bottle</b>
+                    <img src="/Users/tanvichoudhary/Desktop/HTML_CSS/Assignment//Images/Products/c3.jpg" >
+                    <div class = "type">Rs 99 <br> Offer Rs 87/-</div>
+                    <button class ="cart"><b>Add to cart</b></button> 
+                </div>
+
+                <div class="overlay"><b>Mask</b>
+                    <img src="/Users/tanvichoudhary/Desktop/HTML_CSS/Assignment//Images/Products/c4.jpg" >
+                    <div class = "type">Rs 45 <br> Offer Rs 30/-</div>
+                    <button class ="cart"><b>Add to cart</b></button> 
+                </div> 
+
+             </div>
+
+        </article>
+        
+    </section>
+
+    <section>
+        <article id ="Diabetes">
+            <div> <b>Diabetes Care</b></div>
+            <br>
+
+             <div class="Section">
+                 <div class="overlay"><b>Mask</b>
+                    <img src="/Users/tanvichoudhary/Desktop/HTML_CSS/Assignment//Images/Products/d1.jpg" >
+                    <div class = "type">Rs 45 <br> Offer Rs 30/-</div>
+                     <button class ="cart"><b>Add to cart</b></button> 
+                </div>
+ 
+                <div class="overlay"><b>Mask</b>
+                     <img src="/Users/tanvichoudhary/Desktop/HTML_CSS/Assignment//Images/Products/d2.jpg" >
+                     <div class = "type">Rs 45 <br> Offer Rs 30/-</div>
+                    <button class ="cart"><b>Add to cart</b></button> 
+                </div>
+
+                 <div class="overlay"><b>Mask</b>
+                    <img src="/Users/tanvichoudhary/Desktop/HTML_CSS/Assignment//Images/Products/d3.jpg" >
+                    <div class = "type">Rs 45 <br> Offer Rs 30/-</div>
+                    <button class ="cart"><b>Add to cart</b></button> 
+                </div>
+
+                <div class="overlay"><b>Mask</b>
+                    <img src="/Users/tanvichoudhary/Desktop/HTML_CSS/Assignment//Images/Products/d4.png" >
+                    <div class = "type">Rs 45 <br> Offer Rs 30/-</div>
+                    <button class ="cart"><b>Add to cart</b></button> 
+                </div>  
+
+             </div> 
+
+        </article>
+        
+    </section>
+
+    <footer>@copyright. Only for demonstration purpose.</footer>
+</body>
+</html>

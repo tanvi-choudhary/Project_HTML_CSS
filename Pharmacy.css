@@ -1,0 +1,155 @@
+body{
+    background-color: white;
+    height:auto;
+    margin:0px;
+}
+header{
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px; 
+    background-color: rgba(0, 0, 0, 0.685);
+    width:97%;
+    height:30px;
+}
+footer{
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+  position: absolute;
+  width:97%;
+  top: 160%;
+  text-align: center;
+}
+
+#navigate{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}
+
+.navbar {
+     overflow: hidden; 
+    width:100%;
+    background-color: rgb(0, 0, 0, 0.5);
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(238, 237, 237);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(87, 141, 190);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #Covid{
+      position: absolute;
+      top: 75%;
+      font-size: 25px;
+  }
+
+  .Section{
+    font-size: 15px;
+    float: right; 
+    
+  }
+  .overlay{
+      position: relative;
+      width: 150px;
+      height: 180px;
+      float: left;
+      background-color: rgb(206, 230, 238);
+      border: 10px solid white;
+      border-radius: 5px;
+  }
+
+  .overlay img{
+    border-radius: 10px;
+    float: left;
+    width: 130px;
+    height: 100px;
+    margin-left: 2%;
+    padding: 5px;
+}
+.type{
+    font-size: 10px;
+    color: rgb(78, 144, 219);
+}
+  .cart{
+      position: relative;
+      float: left;
+      border: 2px solid blue;
+      border-radius: 7px;
+      background-color: rgb(179, 179, 230);
+      color: orange;
+      text-align: center;
+      width: 130px;
+      margin-left: 5%;
+
+  } 
+  .cart:active{
+    background-color: rgb(250, 234, 230) ;
+    border: 2px solid rgb(0, 255, 76);
+    border-radius: 8px;
+  }
+  .cart:hover{
+    width: 135px;
+    height: 27px;
+    position: inherit;
+  }
+
+  #Diabetes{
+    position: absolute;
+    top: 115%;
+    font-size: 25px;
+}
